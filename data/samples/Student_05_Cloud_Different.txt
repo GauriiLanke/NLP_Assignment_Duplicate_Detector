@@ -1,0 +1,9 @@
+Cloud Computing Architectures and Containerization
+Student Name: Neha Gupta
+Roll Number: CS-2024-033
+
+1. Cloud Computing Essentials
+Cloud computing delivers on-demand computational capabilities including virtual servers, distributed object storage, managed database engines, and software services over high-speed networks.
+
+2. Containerization and Microservices
+Containers bundle application software along with its runtime system libraries into lightweight isolated user spaces. Tools like Docker and Kubernetes enable dynamic orchestration and self-healing deployments across heterogeneous clusters.

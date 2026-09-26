@@ -1,0 +1,15 @@
+Artificial Intelligence and Machine Learning Fundamentals
+Student Name: Rahul Sharma
+Roll Number: CS-2024-042
+
+1. Introduction
+Machine learning is a subset of artificial intelligence that enables computers to learn from historical data and make automated predictions without explicit rule programming. It can be divided into supervised learning, unsupervised learning, and reinforcement learning.
+
+2. Supervised Learning
+Supervised learning algorithms are trained using labeled datasets where the desired ground truth is known. Examples include linear regression, decision trees, support vector machines, and deep neural networks.
+
+3. Neural Networks and Deep Learning
+Convolutional Neural Networks are designed specifically for image recognition and computer vision tasks. They extract hierarchical spatial patterns through convolutional layers, pooling layers, and fully connected activation layers.
+
+4. Conclusion
+Machine learning has transformed automated decision making across healthcare diagnostics, autonomous vehicles, and natural language processing systems.

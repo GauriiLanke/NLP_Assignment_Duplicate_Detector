@@ -1,0 +1,12 @@
+Operating System Process Scheduling and Concurrency
+Student Name: Vikram Singh
+Roll Number: CS-2024-081
+
+1. Role of Operating Systems
+An operating system acts as an intermediary bridge between physical computer hardware and user software applications, providing process scheduling, virtual memory management, and file system abstractions.
+
+2. Concurrency and Deadlocks
+Deadlock occurs in concurrent computing when two or more execution threads are permanently halted because each process waits for a resource held by another process in a circular wait loop.
+
+3. CPU Scheduling Algorithms
+Common CPU scheduling policies include First-Come First-Served, Shortest Job First, Multi-Level Feedback Queues, and Preemptive Round Robin scheduling.
