@@ -148,28 +148,6 @@ Then open `http://localhost:8501` in your web browser.
    - Feature Importance breakdown.
 5. **Downloadable Audit Report**:
    - Generates a timestamped markdown/text report with line-by-line matches.
-
----
-
-## 🎓 6. College Viva Q&A Guide
-
-### Q1: What is the main drawback of TF-IDF in plagiarism detection?
-> **Answer**: TF-IDF is a bag-of-words / lexical approach. It relies on exact word overlap. If a student paraphrases sentences using synonyms (e.g. replacing *"Machine learning enables computers to learn from data"* with *"AI models extract patterns from training datasets"*), TF-IDF produces a low similarity score because there are few shared words. This is why we integrate Sentence Transformers (SBERT) to capture semantic meaning.
-
-### Q2: Why did you use `all-MiniLM-L6-v2` as your Sentence Transformer model?
-> **Answer**: `all-MiniLM-L6-v2` maps sentences to a 384-dimensional dense vector space. It is specifically tuned for semantic textual similarity (STS). It is compact (~80 MB), fast on CPU inference (under 100ms per pair), and provides state-of-the-art cosine similarity accuracy for paraphrased content.
-
-### Q3: What is the difference between Cosine Similarity and Jaccard Similarity?
-> **Answer**:
-> - **Cosine Similarity** evaluates the angle between vectors: $\text{Cosine}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$. It considers both presence and magnitude/weight of features (such as TF-IDF scores).
-> - **Jaccard Similarity** is set-based: $J(A, B) = \frac{|A \cap B|}{|A \cup B|}$. It measures the proportion of shared unique vocabulary tokens without weighting.
-
-### Q4: Why is Lemmatization used instead of Stemming?
-> **Answer**: Stemming uses heuristic chopping of word affixes (e.g., Porter Stemmer truncates *"computing"* to *"comput"*), which often results in non-dictionary roots. Lemmatization uses morphological analysis with Part-of-Speech tags (via spaCy) to identify the true root word (e.g., *"ran"*, *"running"* $\to$ *"run"*), ensuring meaningful vector representations.
-
-### Q5: Why is the project titled "Assignment Duplicate Detector" instead of "Plagiarism Detector"?
-> **Answer**: Academic similarity can arise from common assignment templates, standard definitions, or shared lab prompt questions. An automated tool cannot determine moral intent. Therefore, flagging assignments as "Duplicate" or "Similar" serves as an explainable diagnostic aid for faculty review rather than an accusatory plagiarism verdict.
-
 ---
 
 ## 👨‍💻 Technologies Used
